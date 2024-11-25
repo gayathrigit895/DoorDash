@@ -92,6 +92,9 @@ body {
     margin-top: 96px;
     margin-bottom: 96px;
 }
+.g_a{
+    max-width: 90%;
+}
 .f_a{
     margin-top: 20px;
     color: rgb(25,25,25);
