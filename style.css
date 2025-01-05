@@ -988,7 +988,10 @@ body {
     text-decoration-color: rgb(25, 25, 25);
     /* width :88.7344px; */
 }
-@media screen and (min-width:1px) and (max-width:767px){
+@media screen and (min-width:0px) and (max-width:767px){
+    .discover{
+        font-size: 22px;
+    }
     .become{
         max-width: 767px;
         margin-top: 32px;
@@ -1170,6 +1173,22 @@ body {
     }
     .p_txt{
         display: contents;
+    }
+    .discover{
+        line-height: unset;
+    }
+    .f_c1{
+        max-width: unset;
+    }
+    .f_c{
+        max-width: unset;
+    }
+    .scoot{
+        margin-right: 32px;
+    }
+    .scoot img{
+        width: 88px;
+        height: 88px;
     }
 }
 @media screen and (min-width:960px){
