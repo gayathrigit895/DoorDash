@@ -994,6 +994,9 @@ body {
     text-decoration-color: rgb(25, 25, 25);
     /* width :88.7344px; */
 }
+.top_wrapper{
+    display: none;
+}
 @media screen and (min-width:0px) and (max-width:767px){
     .discover{
         font-size: 22px;
@@ -1209,7 +1212,171 @@ body {
     .f_c{
         font-size: 14px;;
     }
-    .
+    .top_wrapper{
+        margin-top: 16px;
+        display: block;
+    }
+    .browse_faster{
+        padding: 8px;
+        background-color: white;
+        box-sizing :border-box;
+        column-gap :8px;
+        display :grid;
+        grid-template-columns :64px 604.797px 66.2031px;
+        grid-template-rows: 0px 64px 0px;
+    }
+    .red_logo{
+        flex-shrink: 0;
+        border-bottom-color :rgb(241, 241, 241);
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-style :solid;
+        border-bottom-width: 1px;
+        border-left-color :rgb(241, 241, 241);
+        border-left-style :solid;
+        border-left-width: 1px;
+        border-right-color: rgb(241, 241, 241);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-color :rgb(241, 241, 241);
+        border-top-left-radius :12px;
+        border-top-right-radius: 12px;
+        border-top-style: solid;
+        border-top-width :1px;
+        box-sizing: border-box;
+        color :rgb(96, 96, 96);
+        fill: none;
+        flex-shrink :0;
+        font-size :14px;
+        font-weight: 500;
+        height :64px;
+        letter-spacing :-0.01px;
+        line-height: 20px;
+        overflow-x: hidden;
+        overflow-y :hidden;
+        text-align: left;
+        text-transform: none;
+        text-wrap: nowrap;
+        white-space-collapse :collapse;
+        text-align: center;
+        align-items: center;
+    }
+    .red_logo img{
+        width:64px;
+        height: 64px;
+    }
+    .text1{
+        box-sizing :border-box;
+        color: rgb(25, 25, 25);
+        font-family :a;
+        font-size :16px;
+        font-weight: 700;
+        letter-spacing :-0.01px;
+        line-height :22px;
+        margin-bottom :0px;
+        margin-left: 0px;
+        margin-right :0px;
+        margin-top: 0px;
+        max-width :100%;
+        padding-bottom :0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top :0px;
+        text-align :left;
+        text-decoration-color :rgb(25, 25, 25);
+    }
+    .text2{
+        box-sizing :border-box;
+        color :rgb(96, 96, 96);
+        font-family :a;
+        font-size :14px;
+        font-weight :500;
+        letter-spacing :-0.01px;
+        line-height: 20px;
+        margin-bottom :0px;
+        margin-left :0px;
+        margin-right :0px;
+        margin-top :0px;
+        max-width: 100%;
+        padding-bottom :0px;
+        padding-left: 0px;
+        padding-right :0px;
+        padding-top: 0px;
+        text-align :left;
+        text-decoration-color :rgb(96, 96, 96);
+        text-decoration-line :none;
+        text-decoration-style :solid;
+        text-decoration-thickness: auto;
+        text-overflow :ellipsis;
+        text-transform :none;
+        text-wrap: nowrap;
+        white-space-collapse :collapse;
+    }
+    .text3{
+        align-items: center;
+        box-sizing :border-box;
+        color: rgb(96, 96, 96);
+        display :flex;
+        flex-direction: row;
+        font-family :a;
+        font-size: 14px;
+        font-weight :500;
+        justify-content :flex-start;
+        letter-spacing :-0.01px;
+        line-height :20px;
+        max-width :100%;
+        text-align :left;
+        text-transform :none;
+        text-wrap: wrap;
+        white-space-collapse :collapse;
+    }
+    .star{
+        box-sizing :border-box;
+        color :rgb(96, 96, 96);
+        fill :none;
+        flex-shrink :0;
+        font-family :a;
+        font-size :14px;
+        font-weight :500;
+        height: 12px;
+        letter-spacing :-0.01px;
+        line-height :20px;
+        margin-bottom :0px;
+        margin-left: 0px;
+        margin-right :2px;
+        margin-top :0px;
+        text-align: left;
+        text-transform: none;
+        text-wrap: wrap;
+        white-space-collapse :collapse;
+        width :12px;
+    }
+    .textstar{
+        box-sizing :border-box;
+        color :rgb(96, 96, 96);
+        font-family :a;
+        font-size :14px;
+        font-weight :500;
+        letter-spacing :-0.01px;
+        line-height :20px;
+        margin-bottom :0px;
+        margin-left: 4px;
+        margin-right :0px;
+        margin-top :0px;
+        max-width: 100%;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top :0px;
+        text-align :left;
+        text-decoration-color :rgb(96, 96, 96);
+        text-decoration-line :none;
+        text-decoration-style :solid;
+        text-decoration-thickness :auto;
+        text-overflow :ellipsis;
+        text-wrap :nowrap;
+        white-space-collapse :collapse;
+    }
 }
 @media screen and (min-width:960px){
     .to_f{
