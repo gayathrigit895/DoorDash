@@ -697,6 +697,7 @@ body {
     padding-left: 8px;
     padding-right: 8px;
     flex-wrap: nowrap;
+    background-size: cover;
 }
 .adjust{
     display: flex;
@@ -1019,6 +1020,9 @@ body {
     }
     .wrapper{
         height: 550px;
+        position: relative;
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
+        background-size: cover;
     }
     .everything{
         flex-direction: column-reverse;
@@ -1034,6 +1038,8 @@ body {
     }
     .x{
        display: contents; 
+       position: absolute;
+       top:15px;
     }
     .sign_out{
         min-height: 32px;
@@ -1222,8 +1228,11 @@ body {
         box-sizing :border-box;
         column-gap :8px;
         display :grid;
-        grid-template-columns :64px 604.797px 66.2031px;
-        grid-template-rows: 0px 64px 0px;
+        /* grid-template-columns :64px 604.797px 66.2031px;*/
+        grid-template-rows: 0px 64px 0px; 
+        /* grid-template-rows: auto auto auto; */
+        grid-template-columns: auto 1fr auto;
+        grid-area: 2/3;
     }
     .red_logo{
         flex-shrink: 0;
@@ -1284,6 +1293,12 @@ body {
         padding-top :0px;
         text-align :left;
         text-decoration-color :rgb(25, 25, 25);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        width: 100%;
+        /* width: 150px; */
     }
     .text2{
         box-sizing :border-box;
@@ -1446,9 +1461,47 @@ body {
         padding-top: 8px;
         width :425px;
     } */
-     .top_wrapper{
-        display: none;
-     }
+    .red_1{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .red_dash{
+        max-width: 400px;
+        width: 100%;
+        margin: 0px auto;
+        flex: 1 0 auto;
+    }
+    .red_pad{
+        background-color: rgb(247, 247, 247);
+        border-bottom-color: rgb(241, 241, 241);
+        border-bottom-left-radius :12px;
+        border-bottom-right-radius :12px;
+        border-bottom-style :solid;
+        border-bottom-width :1px;
+        border-left-color :rgb(241, 241, 241);
+        border-left-style :solid;
+        border-left-width :1px;
+        border-right-color :rgb(241, 241, 241);
+        border-right-style :solid;
+        border-right-width :1px;
+        border-top-color :rgb(241, 241, 241);
+        border-top-left-radius :12px;
+        border-top-right-radius :12px;
+        border-top-style :solid;
+        border-top-width :1px;
+        box-sizing :border-box;
+        display :block;
+        max-width :100%;
+        padding-bottom :20px;
+        padding-left :20px;
+        padding-right :20px;
+        padding-top :20px;
+    }
+    .red_text{
+        display: flex;
+        text-align: left;
+    }
 }
 @media screen and (min-width:960px){
     .to_f{
